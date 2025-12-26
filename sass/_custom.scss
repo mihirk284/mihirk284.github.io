@@ -1,0 +1,109 @@
+// Custom styles for experience page
+.experience-item {
+    margin-bottom: 2rem !important;
+}
+
+.experience-item h3 {
+    font-size: 1.1rem !important;
+    margin-bottom: 0.3rem !important;
+    font-weight: 600 !important;
+}
+
+.experience-meta {
+    font-size: 0.9rem !important;
+    color: var(--meta-color) !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.experience-details {
+    font-size: 0.95rem !important;
+    line-height: 1.6 !important;
+}
+
+// Right-aligned row for numbered list items
+.experience-row {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: baseline !important;
+    width: 100% !important;
+    margin-bottom: 0.5rem !important;
+    font-size: 0.95rem !important;
+}
+
+.experience-row strong {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+}
+
+.experience-row em {
+    font-size: 0.9rem !important;
+    color: var(--meta-color) !important;
+}
+
+// Education section with logos
+// Education section with logos - FLEXIBLE ROWS
+.edu-entry {
+    display: flex !important;
+    align-items: center !important;
+    /* Top to bottom middle */
+    gap: 1.5rem !important;
+    margin-bottom: 2.5rem !important;
+}
+
+.edu-logo {
+    flex-shrink: 0 !important;
+    width: 80px !important;
+    height: auto !important;
+    max-width: 80px !important;
+    max-height: none !important;
+    display: block !important;
+    margin: 0 !important;
+}
+
+.edu-details {
+    flex-grow: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.1rem !important;
+    width: 100% !important;
+}
+
+/* Generic Row for split content (Left + Right) */
+.edu-row {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: baseline !important;
+    width: 100% !important;
+    margin-bottom: 0.1rem !important;
+    /* Tiny gap between lines */
+}
+
+.edu-details h3 {
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+}
+
+.edu-details .institution {
+    font-weight: 500 !important;
+}
+
+.edu-details .meta {
+    font-size: 0.9rem !important;
+    color: var(--meta-color) !important;
+    white-space: nowrap !important;
+    margin: 0 !important;
+}
+
+.edu-details p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+// Fix profile image alignment (force top instead of center)
+body #banner-container-home #image-container-home {
+    margin: 0 !important;
+    margin-inline-start: 2rem !important;
+    align-self: flex-start !important;
+}

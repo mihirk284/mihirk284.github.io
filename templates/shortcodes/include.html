@@ -1,0 +1,15 @@
+{% if path %}
+{% set data = load_data(path=path, format="plain") %}
+{% set parts = data | split(pat="+++\n") %}
+{% if parts | length >= 3 %}
+{% set content = parts | slice(start=2) | join(sep="+++\n") %}
+{% else %}
+{% set parts = data | split(pat="---\n") %}
+{% if parts | length >= 3 %}
+{% set content = parts | slice(start=2) | join(sep="---\n") %}
+{% else %}
+{% set content = data %}
+{% endif %}
+{% endif %}
+{{ content | markdown | safe }}
+{% endif %}

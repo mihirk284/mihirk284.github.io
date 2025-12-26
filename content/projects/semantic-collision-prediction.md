@@ -1,0 +1,24 @@
++++
+title = "Semantically-enhanced Deep Collision Prediction"
+description = "Autonomous navigation using aerial robots with semantic awareness for collision prediction."
+weight = 5
+draft = false
+
+[taxonomies]
+tags = ["Autonomy", "Aerial Robotics", "Publications"]
+
+[extra]
+# local_image = "img/projects/se-dcp.png"
++++
+
+{{ youtube(id="Ni4VywUQCPw") }}
+{{ youtube(id="yoO5MqSPfKw") }}
+
+**Authors**: M. Kulkarni, H. Nguyen, and K. Alexis.
+
+**Venue**: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2023.
+
+### Abstract
+This paper contributes a novel and modularized learning-based method for aerial robots navigating cluttered environments containing hard-to-perceive thin obstacles without assuming access to a map or the full pose estimation of the robot. The proposed solution builds upon a semantically-enhanced Variational Autoencoder that is trained with both real-world and simulated depth images to compress the input data, while preserving semantically-labeled thin obstacles and handling invalid pixels in the depth sensor's output. This compressed representation, in addition to the robot's partial state involving its linear/angular velocities and its attitude are then utilized to train an uncertainty-aware 3D Collision Prediction Network in simulation to predict collision scores for candidate action sequences in a predefined motion primitives library. A set of simulation and experimental studies in cluttered environments with various sizes and types of obstacles, including multiple hard-to-perceive thin objects, were conducted to evaluate the performance of the proposed method and compare against an end-to-end trained baseline. The results demonstrate the benefits of the proposed semantically-enhanced deep collision prediction for learning-based autonomous navigation.
+
+#### [Paper Link](https://doi.org/10.48550/arXiv.2307.11522) • [Code](https://github.com/ntnu-arl/sevae) {.centered-text}

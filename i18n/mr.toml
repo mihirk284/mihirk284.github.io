@@ -1,0 +1,105 @@
+# Marathi (mr) translations for tabi theme
+language_name = "मराठी"  # Shown in language picker for multi-language sites.
+date_locale = "mr_IN"
+full_stop = "।"  # Used at the end of a sentence.
+
+# Menu items.
+# Should match the names in config.extra.menu and config.extra.footer_menu.
+home = "मुख्यपृष्ठ"
+publications = "प्रकाशने"
+experience = "अनुभव"
+talks = "व्याख्याने"
+blog = "ब्लॉग"
+archive = "संग्रहण"
+tags = "टॅग्ज"
+projects = "प्रकल्प"
+about = "बद्दल"
+contact = "संपर्क"
+privacy = "गोपनीयता धोरण"
+site_statistics = "साइट आकडेवारी"
+sitemap = "साइटमॅप"
+
+# Search.
+search = "शोधा"
+search_icon_title = "$SHORTCUT दाबा किंवा शोध उघडण्यासाठी क्लिक करा"  # $SHORTCUT will be replaced with the actual keyboard shortcut.
+clear_search = "शोध साफ करा"  # Title of the X icon next to search input.
+zero_results = "कोणतेही परिणाम सापडले नाहीत"
+one_results = "$NUMBER परिणाम"  # "1 result"
+many_results = "$NUMBER परिणाम"  # "3 results"
+
+# Navigation.
+skip_to_content = "सामग्रीवर जा"
+pinned = "पिन केलेले"
+jump_to_posts = "पोस्टवर जा"
+read_more = "अधिक वाचा"
+one_posts = "$NUMBER पोस्ट"
+many_posts = "$NUMBER पोस्ट्स"
+prev = "मागील"  # As in "Previous" page.
+next = "पुढील"  # As in "Next" page.
+of = "चे"  # E.g. Page 1 "of" 3
+all_posts = "सर्व पोस्ट्स"
+all_tags = "सर्व टॅग्ज"
+all_projects = "सर्व प्रकल्प"
+featured_projects = "वैशिष्ट्यीकृत प्रकल्प"
+language_selection = "भाषा निवड"
+toggle_mode = "$MODE मोडमध्ये टॉगल करा"  # $MODE will be replaced by a value (or both) below.
+dark = "गडद"
+light = "उजळ"
+reset_mode = "मोड साइट डीफॉल्टवर रीसेट करा"
+
+# Quick navigation buttons.
+toggle_toc = "विषय-सूची टॉगल करा"
+go_to_top = "पृष्ठाच्या शीर्षस्थानी जा"
+go_to_comments = "टिप्पणी विभागात जा"
+
+# Post metadata.
+by_author = "$AUTHOR द्वारे"  # $AUTHOR will be replaced by the author(s).
+author_separator = ", "  # For multiple authors. Ensure spacing where necessary.
+author_conjunction = " आणि "  # For multiple authors. Ensure spacing where necessary.
+draft = "मसुदा"
+zero_min_read = "किमान 1 मिनिट वाचन वेळ"
+one_min_read = "$NUMBER मिनिट वाचन वेळ"
+many_min_read = "$NUMBER मिनिटे वाचन वेळ"
+zero_words = "कोणतेही शब्द नाहीत"
+one_words = "$NUMBER शब्द"
+many_words = "$NUMBER शब्द"
+last_updated_on = "$DATE रोजी अद्यतनित"
+see_changes = "बदल पहा"
+
+# Post body.
+table_of_contents = "विषय सूची"
+load_comments = "टिप्पण्या लोड करा"
+
+# Copy code block button.
+copied = "कॉपी केले!"
+copy_code_to_clipboard = "कोड क्लिपबोर्डवर कॉपी करा"
+
+# iine appreciation button.
+like_this_post = "मला ही पोस्ट आवडली"
+
+# Footer: Powered by Zola and tabi.
+powered_by = "द्वारे चालवले"
+and = "आणि"
+site_source = "साइटचा स्रोत"
+
+# 404 error.
+# https://welpo.github.io/tabi/404.html
+page_missing = "तुम्ही विनंती केलेले पृष्ठ अस्तित्वात नाही"
+translation_missing = "किंवा तुमच्या भाषेत अनुवादित केलेले नाही"
+check_url = "URL मध्ये त्रुटी तपासा किंवा"
+go_home = "मुख्यपृष्ठावर परत जा"
+
+# For multilingual quote shortcode.
+# https://welpo.github.io/tabi/blog/shortcodes/#multilingual-quotes
+show_original_quote = "मूळ उद्धरण दाखवा"
+show_translation = "भाषांतर दाखवा"
+open_quotation_mark = """
+close_quotation_mark = """
+
+# Translations for stylised Atom feed.
+# https://welpo.github.io/tabi/atom.xml
+# Must contain "About Feeds"; it will become a link.
+about_feeds = "हे एक वेब फीड आहे, ज्याला Atom फीड देखील म्हणतात। तुमच्या न्यूजरीडरमध्ये अॅड्रेस बारमधून URL कॉपी करून सबस्क्राइब करा। About Feeds ला भेट देऊन अधिक माहिती मिळवा आणि सुरुवात करा। ही सेवा विनामूल्य आहे।"
+visit_the_site = "वेबसाइटला भेट द्या"
+recent_posts = "अलीकडील पोस्ट्स"
+    
