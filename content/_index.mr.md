@@ -16,12 +16,7 @@ social_media_card = "index.jpg"
 
 माझ्या बॅचलरच्या शेवटच्या वर्षात आणि माझ्या मास्टर दरम्यान, मी [टीम CERBERUS](https://www.subt-cerberus.org/) चा भाग होतो, जी [DARPA Subterranean Challenge](https://www.darpa.mil/research/challenges/subterranean) ची विजेती टीम होती. या काळात, मी मल्टी-लिंक्ड सिस्टम्सचे नियंत्रण आणि नियोजन ([बॅचलर थीसिस](https://www.sciencedirect.com/science/article/pii/S2405896320330548)), विषम रोबोट टीम्सचे सहकार्य ([मास्टर थीसिस](https://www.proquest.com/openview/056c92619080f5962b2fd2eb43e25a57)), आर्टिफॅक्ट शोधणे (artifact detection) आणि विविध एरियल आणि ग्राउंड रोबोट प्लॅटफॉर्मवर हार्डवेअर आणि सॉफ्टवेअर एकत्रीकरणावर काम केले.
 
-{% menu_container() %}
-    {{ menu_item(title="प्रकाशने", url="/mr/publications/", icon="book", text="माझे संशोधन पेपर्स आणि जर्नल्स पहा.") }}
-    {{ menu_item(title="अनुभव", url="/mr/experience/", icon="briefcase", text="माझा शैक्षणिक प्रवास.") }}
-    {{ menu_item(title="प्रकल्प", url="/mr/projects/", icon="rocket", text="माझ्या कामाची गॅलरी.") }}
-    {{ menu_item(title="CV डाउनलोड करा", url="/files/cv.pdf", icon="download", text="माझ्या CV ची प्रत मिळवा.") }}
-{% end %}
+{% menu_container() %}{{ menu_item(title="प्रकाशने", url="/mr/publications/", icon="book", text="माझे संशोधन पेपर्स आणि जर्नल्स पहा.") }}{{ menu_item(title="अनुभव", url="/mr/experience/", icon="briefcase", text="माझा शैक्षणिक प्रवास.") }}{{ menu_item(title="प्रकल्प", url="/mr/projects/", icon="rocket", text="माझ्या कामाची गॅलरी.") }}{{ menu_item(title="CV डाउनलोड करा", url="/files/cv.pdf", icon="download", text="माझ्या CV ची प्रत मिळवा.") }}{% end %}
 
 ---
 

@@ -10,56 +10,33 @@ show_projects_first = false
 social_media_card = "index.jpg"
 +++
 
-I am a Researcher at the [Norwegian University of Science and Technology (NTNU)](https://www.ntnu.no). I completed my Ph.D. in Engineering Cybernetics in 2025 at [NTNU](https://www.ntnu.no) under the supervision of [Prof. Dr. Kostas Alexis](https://www.ntnu.edu/employees/konstantinos.alexis) and co-supervision of [Prof. Dr. Davide Scaramuzza](https://rpg.ifi.uzh.ch/people_scaramuzza.html). My Ph.D. thesis, titled ["Vision-based Navigation for Aerial Robots: From Parallelized Simulation to Resilient Flight in Cluttered Environments"](https://nva.sikt.no/registration/019976cfee7c-1571705e-69c5-4f39-a32a-45f7c7913505), focuses on enabling resilient control, navigation, and planning through learned representations. I have developed the [Aerial Gym Simulator](https://github.com/ntnu-arl/aerial_gym_simulator), a massively parallelized simulation and rendering framework to enable efficient policy learning and achieve robust sim-to-real transfer for diverse multirotor platforms.
+### Postdoctoral Researcher at NTNU
 
-I graduated from the [University of Nevada, Reno](https://www.unr.edu/) with a Master's degree in Computer Science and Engineering in 2021. I received my Bachelor's degree in Mechanical Engineering from [BITS Pilani](https://www.bits-pilani.ac.in/) in 2020.
+<div class="centered-text">
 
-During the final year of my Bachelor's and throughout my Master's, I was part of [Team CERBERUS](https://www.subt-cerberus.org/), the winning team of the [DARPA Subterranean Challenge](https://www.darpa.mil/research/challenges/subterranean). During this time, I worked on control and planning for multi-linked systems ([Bachelor's thesis](https://www.sciencedirect.com/science/article/pii/S2405896320330548)), cooperation of heterogeneous robot teams ([Master's thesis](https://www.proquest.com/openview/056c92619080f5962b2fd2eb43e25a57)), artifact detection, and hardware and software integration across diverse aerial and ground robot platforms.
+Ph.D. @ [NTNU](https://www.ntnu.no) (2025)<br>
+M.S. @ [University of Nevada, Reno](https://www.unr.edu/) (2021)<br>
+B.E. @ [BITS Pilani](https://www.bits-pilani.ac.in/) (2020)
+</div>
 
 
-{% menu_container() %}
-    {{ menu_item(title="Publications", url="/publications/", icon="book", text="See my research papers and journals.") }}
-    {{ menu_item(title="Experience", url="/experience/", icon="briefcase", text="My academic journey.") }}
-    {{ menu_item(title="Projects", url="/projects/", icon="rocket", text="Gallery of my work.") }}
-    {{ menu_item(title="Download CV", url="/files/cv.pdf", icon="download", text="Get a copy of my CV.") }}
-{% end %}
+I am a Postdoctoral Researcher at the [Norwegian University of Science and Technology (NTNU)](https://www.ntnu.no).
+I completed my Ph.D. in Engineering Cybernetics in 2025 at [NTNU](https://www.ntnu.no) under the supervision of [Prof. Dr. Kostas Alexis](https://www.ntnu.edu/employees/konstantinos.alexis) and co-supervision of [Prof. Dr. Davide Scaramuzza](https://rpg.ifi.uzh.ch/people_scaramuzza.html).
 
----
+I am interested in enabling operational resilience in autonomous systems through mechanisms of interleaved safety. I have extensively worked on control, navigation and planning for multirotor platforms through reinforcement learningand developed the [Aerial Gym Simulator](https://github.com/ntnu-arl/aerial_gym_simulator) to enable efficient policy learning and sim2real transfer.
 
-### Technical Expertise
+I also participated in the [DARPA Subterranean Challenge](https://www.darpa.mil/research/challenges/subterranean) as a key member of [Team CERBERUS](https://www.subt-cerberus.org/). Our team won the competition and received USD 2M in prize money.
 
-#### Software and Programming
+<!-- 
+My Ph.D. thesis, titled ["Vision-based Navigation for Aerial Robots: From Parallelized Simulation to Resilient Flight in Cluttered Environments"](https://nva.sikt.no/registration/019976cfee7c-1571705e-69c5-4f39-a32a-45f7c7913505), focuses on enabling resilient control, navigation, and planning through learned representations. I have developed the [Aerial Gym Simulator](https://github.com/ntnu-arl/aerial_gym_simulator), a massively parallelized simulation and rendering framework to enable efficient policy learning and achieve robust sim-to-real transfer for diverse multirotor platforms.
 
-- C++
-- Python
-- ROS/ROS2
-- PyTorch
-- NVIDIA Isaac Gym, Isaac Lab
-- Docker
-- Matlab
+During the final year of my Bachelor's and throughout my Master's, I was part of [Team CERBERUS](https://www.subt-cerberus.org/), the winning team of the [DARPA Subterranean Challenge](https://www.darpa.mil/research/challenges/subterranean). During this time, I worked on control and planning for multi-linked systems ([Bachelor's thesis](https://www.sciencedirect.com/science/article/pii/S2405896320330548)), cooperation of heterogeneous robot teams ([Master's thesis](https://www.proquest.com/openview/056c92619080f5962b2fd2eb43e25a57)), artifact detection, and hardware and software integration across diverse aerial and ground robot platforms. -->
 
-#### CAD Modeling, Rendering, and Simulation
+[Publications](/publications/) | [Experience](/experience/) | [Projects](/projects/) | [Download CV](/files/cv.pdf)
 
-- SolidWorks
-- PTC Creo
-- Blender
-- Gazebo (Classic, Ignition, NVIDIA Isaac)
+<!-- {% menu_container() %}{{ menu_item(title="Publications", url="/publications/", icon="", text="See my research papers and journals.") }}{{ menu_item(title="Experience", url="/experience/", icon="", text="My academic journey.") }}{{ menu_item(title="Projects", url="/projects/", icon="", text="Gallery of my work.") }}{{ menu_item(title="Download CV", url="/files/cv.pdf", icon="", text="Get a copy of my CV.") }}{% end %} -->
 
-#### Hardware Design and Fabrication
 
-- PCB Design
-- 3D Printing (FDM, SLA, SLS)
-- CNC machining
-- Assembly and Testing
-
-#### Hardware Platforms
-
-- Aerial Robots (Multirotor, Fixed-wing)
-    - Design, Fabrication, Manufacturing, and Testing 
-- PX4/ Ardupilot Flight Controllers
-    - Setup, tuning, customizations
-- Wheeled Robots
-    - Design, Fabrication, Manufacturing, and Testing
 
 <!-- {{ include(path="content/talks/_index.md") }} -->
 

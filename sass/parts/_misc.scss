@@ -18,7 +18,7 @@ kbd {
     display: block;
     margin: 0;
     color: var(--text-color-high-contrast);
-    font-weight: 550;
+    font-weight: 600;
     font-size: 2rem;
     line-height: 3rem;
 }
@@ -48,6 +48,7 @@ ul {
 
 .title-container {
     padding-bottom: 8px;
+
     .social {
         margin-inline-start: 0.5rem;
     }
@@ -137,7 +138,7 @@ a:not(.no-hover-padding):hover::before {
 }
 
 @media screen and (max-width: 600px) {
-    .list > ul {
+    .list>ul {
         margin: 0;
         padding: 0;
     }
@@ -258,7 +259,7 @@ details summary {
 
     div p {
         color: var(--meta-color);
-        font-weight: 300;
+        font-weight: 500;
         line-height: 1.2rem;
         font-family: var(--sans-serif-font);
         letter-spacing: -0.4px;

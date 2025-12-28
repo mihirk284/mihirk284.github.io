@@ -17,10 +17,14 @@ show_reading_time = false
       <h3>Ph.D. Engineering Cybernetics</h3>
       <span class="meta">January 2022 - August 2025</span>
     </div>
-    Norwegian University of Science and Technology (NTNU)<br>
-    Dept. of Engineering Cybernetics
+    <div>Norwegian University of Science and Technology (NTNU)</div>
+    <div>Dept. of Engineering Cybernetics</div>
+    <div>Thesis: <a href="https://nva.sikt.no/registration/019976cfee7c-1571705e-69c5-4f39-a32a-45f7c7913505">Vision-based Navigation for Aerial Robots: From Parallelized Simulation to Resilient Flight in Cluttered Environments</a></div>
+    <div>Supervisor: <a href="https://www.ntnu.edu/employees/konstantinos.alexis">Prof. Dr. Kostas Alexis</a> | Co-Supervisor: <a href="https://rpg.ifi.uzh.ch/people_scaramuzza.html">Prof. Dr. Davide Scaramuzza</a></div>
+    <div>Committee: <a href="https://pearl-lab.com/people/georgia-chalvatzaki/">Prof. Dr. Georgia Chalvatzaki</a> | <a href="https://profiles.ucl.ac.uk/73094-dimitrios-kanoulas">Prof. Dr. Dimitrios Kanoulas</a> | <a href="https://www.ntnu.edu/employees/damiano.varagnolo">Prof. Dr. Damiano Varagnolo</a></div>
   </div>
 </div>
+
 
 <div class="edu-entry">
   <img src="/img/logos/unr.png" alt="UNR" class="edu-logo">

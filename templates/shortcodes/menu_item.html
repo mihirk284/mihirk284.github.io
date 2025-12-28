@@ -1,20 +1,21 @@
-<a href="{{ url }}"
-    style="text-decoration: none; color: inherit; border: 1px solid var(--secondary); padding: 1.5rem; border-radius: 12px; text-align: center; background: var(--bg-secondary); transition: transform 0.2s ease, border-color 0.2s ease; display: block; height: 100%; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-    <div style="margin-bottom: 0.75rem; color: var(--primary);">
+<a href="{{ url }}" class="card"
+    style="text-decoration: none; display: flex !important; flex-direction: row !important; align-items: center !important; justify-content: center !important; padding: 1.25rem; gap: 1.25rem;">
+    <div
+        style="flex-shrink: 0; color: var(--primary); display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: var(--bg-1); border-radius: 8px;">
         {% if icon == "book" %}
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
             <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
         </svg>
         {% elif icon == "briefcase" %}
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
             <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
         </svg>
         {% elif icon == "rocket" %}
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path>
             <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z">
@@ -23,7 +24,7 @@
             <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
         </svg>
         {% elif icon == "download" %}
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
             <polyline points="7 10 12 15 17 10"></polyline>
@@ -31,6 +32,8 @@
         </svg>
         {% endif %}
     </div>
-    <h3 style="margin: 0.5rem 0; font-weight: 600;">{{ title }}</h3>
-    <p style="font-size: 0.85rem; opacity: 0.8; margin: 0;">{{ text }}</p>
+    <div style="text-align: center;">
+        <h3 style="margin: 0; font-size: 1.1rem; font-weight: 600; line-height: 1.2;">{{ title }}</h3>
+        <p style="margin: 0.2rem 0 0 0; font-size: 0.85rem; opacity: 0.8; line-height: 1.4;">{{ text }}</p>
+    </div>
 </a>
