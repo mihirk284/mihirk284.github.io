@@ -7,14 +7,20 @@
         </section>
     </div>
     {%- if header.img -%}
-        {%- if header.img is containing("$BASE_URL") -%}
-            {# Conversion no longer supported in favour of proper path. #}
-            {{ throw(message="ERROR: The image path for the header should not contain '$BASE_URL'. Please remove it and use the proper image path.") }}
-        {%- else -%}
-            {%- set image_path = get_url(path=header.img, trailing_slash=false) | safe -%}
-        {%- endif -%}
-        <div id="image-container-home">
-            <img alt="{{ header.img_alt | default(value="the owner") }}" id="banner-home-img" src="{{ image_path }}" />
+    {%- if header.img is containing("$BASE_URL") -%}
+    {# Conversion no longer supported in favour of proper path. #}
+    {{ throw(message="ERROR: The image path for the header should not contain '$BASE_URL'. Please remove it and use the
+    proper image path.") }}
+    {%- else -%}
+    {%- set image_path = get_url(path=header.img, trailing_slash=false) | safe -%}
+    {%- endif -%}
+    <div id="image-container-home">
+        <img alt="{{ header.img_alt | default(value=" the owner") }}" id="banner-home-img" src="{{ image_path }}" />
+        {%- if header.sidebar_info -%}
+        <div class="sidebar-info">
+            {{ header.sidebar_info | safe }}
         </div>
+        {%- endif -%}
+    </div>
     {%- endif -%}
 </div>
