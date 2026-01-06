@@ -8,7 +8,7 @@ draft = false
 tags = ["Simulation and Rendering", "Reinforcement Learning", "Autonomy", "Aerial Robotics", "Publications"]
 
 [extra]
-# local_image = "img/projects/aerial-gym.png"
+local_image = "img/projects/aerial-gym.jpg"
 +++
 
 {{ youtube(id="VBVBQNtHZoc") }}

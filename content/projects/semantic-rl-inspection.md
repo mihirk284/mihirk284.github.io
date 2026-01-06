@@ -8,7 +8,7 @@ draft = false
 tags = ["Reinforcement Learning", "Autonomy", "Publications"]
 
 [extra]
-# local_image = "img/projects/semantic-rl-inspection.png"
+local_image = "img/projects/semantic-rl-inspection.jpg"
 +++
 
 {{ youtube(id="vAXLmalLo80") }}

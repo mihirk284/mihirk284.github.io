@@ -8,7 +8,7 @@ draft = false
 tags = ["Aerial Robotics", "Autonomy", "Publications"]
 
 [extra]
-# local_image = "img/projects/aerial-chain.png"
+local_image = "img/projects/aerial-chain.jpg"
 +++
 
 {{ youtube(id="wP8Mg9_YEh8") }}

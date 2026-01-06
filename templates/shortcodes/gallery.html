@@ -1,0 +1,40 @@
+{%- set title = title | default(value="") -%}
+{%- set columns = columns | default(value=3) -%}
+{%- set gap = gap | default(value="1rem") -%}
+
+<div class="gallery-container">
+    {%- if title -%}
+    <h3 class="gallery-title">{{ title }}</h3>
+    {%- endif -%}
+    <div class="gallery-grid" style="--gallery-columns: {{ columns }}; --gallery-gap: {{ gap }};">
+        {%- if body -%}
+        {%- set images = body | trim | split(pat="\n") -%}
+        {%- for image_line in images -%}
+        {%- set line = image_line | trim -%}
+        {%- if line -%}
+        {%- set parts = line | split(pat="|") -%}
+        {%- set src = parts[0] | trim -%}
+        {%- set alt = "" -%}
+        {%- if parts | length > 1 -%}
+        {%- set alt = parts[1] | trim -%}
+        {%- endif -%}
+
+        {#- Determine image URL and metadata -#}
+        {%- set meta = false -%}
+        {%- if src is starting_with("http") -%}
+        {%- set image_url = src -%}
+        {%- else -%}
+        {%- set meta = get_image_metadata(path=src, allow_missing=true) -%}
+        {%- set image_url = get_url(path=src, cachebust=true) -%}
+        {%- endif -%}
+
+        <div class="gallery-item">
+            <img src="{{ image_url }}" {% if alt %}alt="{{ alt }}" {% endif %} {% if meta and meta.width
+                %}width="{{ meta.width }}" {% endif %} {% if meta and meta.height %}height="{{ meta.height }}" {% endif
+                %} class="gallery-image" loading="lazy" />
+        </div>
+        {%- endif -%}
+        {%- endfor -%}
+        {%- endif -%}
+    </div>
+</div>

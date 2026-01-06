@@ -8,7 +8,7 @@ draft = false
 tags = ["Reinforcement Learning", "Autonomy", "Aerial Robotics", "Publications"]
 
 [extra]
-# local_image = "img/projects/collision-encoding.png"
+local_image = "img/projects/collision-encoding.jpg"
 +++
 
 {{ youtube(id="gPrT21sbpTY") }}

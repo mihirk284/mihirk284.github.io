@@ -8,7 +8,7 @@ weight = 6
 tags = ["Robotics", "Competition", "Autonomy", "Publications"]
 
 [extra]
-# local_image = "img/projects/cerberus.png"
+local_image = "img/projects/cerberus.jpg"
 +++
 
 

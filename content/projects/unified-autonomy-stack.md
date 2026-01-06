@@ -8,7 +8,7 @@ weight = 3
 tags = ["Robotics", "Autonomy", "Publications"]
 
 [extra]
-# local_image = "img/projects/uas.png"
+local_image = "img/projects/uas.jpg"
 +++
 
 The [**Unified Autonomy Stack**](https://github.com/ntnu-arl/unified_autonomy_stack) is a field-tested autonomy architecture designed to command a diverse set of robots. It provides a blueprint for generalizable robot autonomy, enabling resilient navigation in complex and degraded environments.

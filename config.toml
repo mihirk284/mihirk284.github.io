@@ -286,6 +286,7 @@ menu = [
     { name = "Publications", url = "/publications/", trailing_slash = true },
     { name = "Experience", url = "/experience/", trailing_slash = true },
     { name = "Talks", url = "/talks/", trailing_slash = true },
+    { name = "Gallery", url = "/gallery/", trailing_slash = true },
     { name = "Projects", url = "/projects/", trailing_slash = true },
     # { name = "Blog", url = "/blog/", trailing_slash = true },
 ]

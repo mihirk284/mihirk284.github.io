@@ -8,7 +8,7 @@ draft = false
 tags = ["Autonomy", "Publications"]
 
 [extra]
-# local_image = "img/projects/mimosa.png"
+local_image = "img/projects/mimosa.jpg"
 +++
 {{ youtube(id="S91GzCWBt2I") }}
 {{ youtube(id="QDaqS7rL7kA") }}
