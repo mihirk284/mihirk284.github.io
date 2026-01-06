@@ -279,6 +279,7 @@ favicon = "img/main.png"
 # https://osc.garden/blog/automating-social-media-cards-zola/
 social_media_card = "index.jpg"
 
+
 # Specify a list of menu items in the top navigation bar.
 # See https://welpo.github.io/tabi/blog/mastering-tabi-settings/#menu
 menu = [
