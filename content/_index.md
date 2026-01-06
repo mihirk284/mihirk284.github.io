@@ -7,7 +7,7 @@ header = {title = "Mihir Kulkarni", img = "img/main.png", img_alt = "Mihir Kulka
 projects_path = "projects/_index.md"
 max_projects = 6
 show_projects_first = false
-social_media_card = "index.jpg"
+social_media_card = "mihirk.png"
 +++
 
 ### Postdoctoral Researcher at NTNU
