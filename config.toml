@@ -351,10 +351,11 @@ footer_menu = [
 # Note: to use a Zola built-in syntax highlighting theme, allow unsafe-inline for style-src.
 allowed_domains = [
     { directive = "font-src", domains = ["'self'", "data:"] },
-    { directive = "img-src", domains = ["'self'", "https://*", "data:"] },
+    { directive = "img-src", domains = ["'self'", "https://*", "data:", "https://www.google-analytics.com", "https://www.googletagmanager.com"] },
     { directive = "media-src", domains = ["'self'", "https://cdn.jsdelivr.net/"] },
-    { directive = "script-src", domains = ["'self'"] },
+    { directive = "script-src", domains = ["'self'", "https://www.googletagmanager.com"] },
     { directive = "style-src", domains = ["'self'"] },
+    { directive = "connect-src", domains = ["'self'", "https://www.google-analytics.com", "https://www.googletagmanager.com"] },
     { directive = "frame-src", domains = ["player.vimeo.com", "https://www.youtube-nocookie.com"] },
 ]
 
@@ -374,22 +375,23 @@ custom_subset = true
 
 [extra.analytics]
 # Specify which analytics service you want to use.
-# Supported options: ["goatcounter", "umami", "plausible"]
-service = "goatcounter"
+# Supported options: ["goatcounter", "umami", "plausible", "google"]
+service = "google"
 
 # Unique identifier for tracking.
 # For GoatCounter, this is the code you choose during signup.
 # For Umami, this is the website ID.
 # For Plausible, this is the domain name (e.g. "example.com").
+# For Google Analytics, this is the Measurement ID (e.g. "G-XXXXXXXXXX").
 # Note: Leave this field empty if you're self-hosting GoatCounter.
-# id = "yourID"
+id = "G-E6E61LQ8D1"
 
 # Optional: Specify the URL for self-hosted analytics instances.
 # For GoatCounter: Base URL like "https://stats.example.com"
 # For Umami: Base URL like "https://umami.example.com"
 # For Plausible: Base URL like "https://plausible.example.com"
 # Leave this field empty if you're using the service's default hosting.
-self_hosted_url = "https://tabi-stats.osc.garden"
+self_hosted_url = ""
 
 # Optional: For Umami, enable this option to respect users' Do Not Track (DNT) settings. The default is true.
 do_not_track = true
