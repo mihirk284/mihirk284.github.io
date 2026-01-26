@@ -3,7 +3,7 @@ title = "Home"
 sort_by = "weight"
 
 [extra]
-header = {title = "Mihir Kulkarni", img = "img/main.png", img_alt = "Mihir Kulkarni", sidebar_info = "Email: mihirk284@gmail.com<br><br>Publication metrics:<br>Citations: 888<br>h-index: 13<br> i10-index: 15" }
+header = {title = "Mihir Kulkarni", img = "img/main.png", img_alt = "Mihir Kulkarni", sidebar_info = "Email: mihirk284@gmail.com<br><br>Publication metrics:<br>Citations: 931<br>h-index: 13<br> i10-index: 17" }
 projects_path = "projects/_index.md"
 max_projects = 6
 show_projects_first = false

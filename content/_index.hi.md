@@ -3,7 +3,7 @@ title = "मुख्यपृष्ठ"
 sort_by = "weight"
 
 [extra]
-header = {title = "मिहिर वि. कुलकर्णी", img = "img/main.png", img_alt = "मिहिर कुलकर्णी", sidebar_info = "ईमेल: mihirk284@gmail.com<br><br>प्रकाशन मेट्रिक्स:<br>Citations: 888<br>h-इंडेक्स: 13<br> i10-इंडेक्स: 15" }
+header = {title = "मिहिर वि. कुलकर्णी", img = "img/main.png", img_alt = "मिहिर कुलकर्णी", sidebar_info = "ईमेल: mihirk284@gmail.com<br><br>प्रकाशन मेट्रिक्स:<br>Citations: 931<br>h-इंडेक्स: 13<br> i10-इंडेक्स: 17" }
 projects_path = "projects/_index.md"
 max_projects = 6
 show_projects_first = false
