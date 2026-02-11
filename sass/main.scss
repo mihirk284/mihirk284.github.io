@@ -105,7 +105,7 @@
     scrollbar-color: var(--primary-color) transparent;
     accent-color: var(--primary-color);
 
-    line-height: 190%;
+    line-height: 160%;
     font-family: var(--sans-serif-font);
 }
 
@@ -138,13 +138,13 @@
 html {
     background-color: var(--background-color);
     color: var(--text-color);
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.6em;
     text-rendering: optimizeLegibility;
 }
 
 strong {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 body {
@@ -183,7 +183,7 @@ article {
     }
 
     strong {
-        font-weight: 700;
+        font-weight: 600;
     }
 
     .full-width {
@@ -208,7 +208,7 @@ article {
     margin: 0;
     margin-top: -0.15em;
     color: var(--text-color-high-contrast);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 2.2em;
     line-height: 1.2em;
 }
@@ -230,25 +230,25 @@ h6 {
 
 h1 {
     margin-top: 0.67em;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.62rem;
 }
 
 h2 {
     margin-top: 0.5em;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.4rem;
 }
 
 h3 {
     margin-top: 0.3em;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.2rem;
 }
 
 h4 {
     margin-top: 0.83em;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1rem;
 }
 
@@ -262,11 +262,11 @@ p {
     margin-top: 0.4rem;
     margin-block-end: var(--paragraph-spacing);
     font-size: 1em;
-    line-height: 2rem;
+    line-height: 1.6rem;
 }
 
 strong {
-    font-weight: 650;
+    font-weight: 600;
     font-size: 1.02em;
 }
 
@@ -343,12 +343,12 @@ video {
 
 @media all and (min-width: 600px) {
     html {
-        font-size: 15px;
+        font-size: 14px;
     }
 }
 
 @media all and (min-width: 960px) {
     html {
-        font-size: 18px;
+        font-size: 16px;
     }
 }

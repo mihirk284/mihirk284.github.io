@@ -19,6 +19,15 @@
         {%- if header.sidebar_info -%}
         <div class="sidebar-info">
             {{ header.sidebar_info | safe }}
+            {%- if config.extra.socials -%}
+            <div class="sidebar-social-icons" style="margin-top: 1rem; display: flex; gap: 0.8rem; flex-wrap: wrap;">
+                {%- for social in config.extra.socials -%}
+                <a href="{{ social.url }}" target="_blank" rel="noopener noreferrer" title="{{ social.name }}" class="sidebar-social-link">
+                    <img src="{{ get_url(path='social_icons/' ~ social.icon ~ '.svg') }}" alt="{{ social.name }}" style="width: 1.5rem; height: 1.5rem; opacity: 0.8; transition: opacity 0.2s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'" />
+                </a>
+                {%- endfor -%}
+            </div>
+            {%- endif -%}
         </div>
         {%- endif -%}
     </div>

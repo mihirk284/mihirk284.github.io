@@ -29,7 +29,7 @@ $padding: 2.5rem;
         margin-inline-end: 0.7rem;
         padding: 0;
         color: var(--meta-color);
-        font-weight: 500;
+        font-weight: 400;
         font-size: 0.9rem;
 
         li {
@@ -58,7 +58,7 @@ $padding: 2.5rem;
         align-items: center;
         gap: 0.3rem;
         color: var(--meta-color);
-        font-weight: 500;
+        font-weight: 400;
         font-size: 0.8rem;
     }
 
@@ -72,12 +72,12 @@ $padding: 2.5rem;
 
         .bloglist-title {
             margin: 0;
-            font-weight: bold;
+            font-weight: 600;
             font-size: 1.2em;
 
             a {
                 color: var(--text-color-high-contrast);
-                font-weight: 600;
+                font-weight: 500;
 
                 &:hover {
                     color: var(--hover-color);
@@ -91,7 +91,7 @@ $padding: 2.5rem;
             .tag {
                 display: inline-block;
                 margin-inline-end: 0.7rem;
-                font-weight: 500;
+                font-weight: 400;
                 font-size: 0.75rem;
                 text-transform: uppercase;
             }
@@ -100,7 +100,7 @@ $padding: 2.5rem;
         .description p {
             margin: 0.5rem 0 1rem;
             color: var(--text-color);
-            font-weight: 500;
+            font-weight: 400;
             font-size: 0.9rem;
             line-height: 1.5rem;
         }
@@ -108,7 +108,7 @@ $padding: 2.5rem;
 }
 
 .all-posts {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.3rem;
 }
 

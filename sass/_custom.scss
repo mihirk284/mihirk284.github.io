@@ -6,7 +6,7 @@
 .experience-item h3 {
     font-size: 1.1rem !important;
     margin-bottom: 0.3rem !important;
-    font-weight: 600 !important;
+    font-weight: 500 !important;
 }
 
 .experience-meta {
@@ -32,7 +32,7 @@
 
 .experience-row strong {
     font-size: 1rem !important;
-    font-weight: 600 !important;
+    font-weight: 500 !important;
 }
 
 .experience-row em {
@@ -80,13 +80,13 @@
 
 .edu-details h3 {
     font-size: 1.1rem !important;
-    font-weight: 600 !important;
+    font-weight: 500 !important;
     line-height: 1.2 !important;
     margin: 0 !important;
 }
 
 .edu-details .institution {
-    font-weight: 500 !important;
+    font-weight: 400 !important;
 }
 
 .edu-details .meta {
@@ -116,7 +116,7 @@ body #banner-container-home #image-container-home {
 
 .gallery-title {
     font-size: 1.3rem !important;
-    font-weight: 600 !important;
+    font-weight: 500 !important;
     margin-bottom: 1rem !important;
     color: var(--primary-color) !important;
 }
@@ -164,5 +164,70 @@ body #banner-container-home #image-container-home {
 @media (max-width: 480px) {
     .gallery-grid {
         grid-template-columns: 1fr !important;
+    }
+}
+
+// Sidebar social icons
+.sidebar-social-icons {
+    margin-top: 1rem !important;
+    display: flex !important;
+    gap: 0.8rem !important;
+    flex-wrap: wrap !important;
+    justify-content: flex-start !important;
+
+    @media only screen and (max-width: 600px) {
+        justify-content: center !important;
+    }
+}
+
+.sidebar-social-link {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: transform 0.2s ease !important;
+
+    &:hover {
+        transform: translateY(-2px) !important;
+        background-color: transparent !important;
+    }
+
+    &:hover::before {
+        display: none !important;
+    }
+
+    img {
+        width: 1.5rem !important;
+        height: 1.5rem !important;
+        opacity: 0.7 !important;
+        transition: opacity 0.2s ease, filter 0.2s ease !important;
+        filter: brightness(0) invert(1) !important;
+    }
+
+    &:hover img {
+        opacity: 1 !important;
+    }
+}
+
+// Adjust icon colors for light mode
+:root:not([data-theme='dark']) .sidebar-social-link img {
+    filter: brightness(0) invert(0) !important;
+    opacity: 0.6 !important;
+
+    &:hover {
+        opacity: 0.9 !important;
+    }
+}
+
+// Ensure proper display in dark mode (explicit)
+[data-theme='dark'] .sidebar-social-link img {
+    filter: brightness(0) invert(1) !important;
+    opacity: 0.7 !important;
+}
+
+// Handle system preference for dark mode
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme='light']) .sidebar-social-link img {
+        filter: brightness(0) invert(1) !important;
+        opacity: 0.7 !important;
     }
 }
