@@ -289,6 +289,7 @@ menu = [
     { name = "Talks", url = "/talks/", trailing_slash = true },
     { name = "Gallery", url = "/gallery/", trailing_slash = true },
     { name = "Projects", url = "/projects/", trailing_slash = true },
+    { name = "CV", url = "/cv/", trailing_slash = true },
     # { name = "Blog", url = "/blog/", trailing_slash = true },
 ]
 
@@ -356,7 +357,7 @@ allowed_domains = [
     { directive = "script-src", domains = ["'self'", "https://www.googletagmanager.com"] },
     { directive = "style-src", domains = ["'self'"] },
     { directive = "connect-src", domains = ["'self'", "https://www.google-analytics.com", "https://www.googletagmanager.com"] },
-    { directive = "frame-src", domains = ["player.vimeo.com", "https://www.youtube-nocookie.com"] },
+    { directive = "frame-src", domains = ["'self'", "player.vimeo.com", "https://www.youtube-nocookie.com"] },
 ]
 
 # Enable the CSP directives configured (or default).
