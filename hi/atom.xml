@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://mihirk284.github.io/feed_style.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="hi">
+    <tabi:metadata xmlns:tabi="https://github.com/welpo/tabi">
+        <tabi:base_url>https:&#x2F;&#x2F;mihirk284.github.io</tabi:base_url>
+        <tabi:separator>
+            •
+        </tabi:separator>
+        <tabi:about_feeds>यह एक वेब फ़ीड है, जिसे एटम फ़ीड भी कहा जाता है। अपने न्यूज़रीडर में एड्रेस बार से URL कॉपी करके सब्सक्राइब करें। About Feeds पर जाकर और अधिक जानकारी प्राप्त करें और शुरू करें। यह सेवा मुफ़्त है।</tabi:about_feeds>
+        <tabi:visit_the_site>वेबसाइट पर जाएं</tabi:visit_the_site>
+        <tabi:recent_posts>हाल की पोस्ट्स</tabi:recent_posts>
+        <tabi:last_updated_on>$DATE को अपडेट किया गया</tabi:last_updated_on>
+        <tabi:default_theme></tabi:default_theme>
+        <tabi:post_listing_date>date</tabi:post_listing_date>
+        <tabi:current_section>Mihir Vinay Kulkarni</tabi:current_section>
+    </tabi:metadata><title>Mihir Vinay Kulkarni</title>
+        <subtitle>NTNU में इंजीनियरिंग साइबरनेटिक्स में शोधकर्ता, एरियल रोबोटिक्स, रीइन्फोर्समेंट लर्निंग और स्वायत्त नेविगेशन में विशेषज्ञता।</subtitle>
+    <link href="https://mihirk284.github.io/hi/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://mihirk284.github.io/hi/" rel="alternate" type="text/html"/>
+    <generator uri="https://www.getzola.org/">Zola</generator><id>https://mihirk284.github.io/hi/atom.xml</id>
+</feed>
