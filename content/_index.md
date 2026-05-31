@@ -38,5 +38,13 @@ B.E. in Mechanical Engineering, [BITS Pilani](https://www.bits-pilani.ac.in/), G
 
 <!-- I was a key member of the winning team ([Team CEREBRUS](https://www.subt-cerberus.org/)) at the [DARPA Subterranean Challenge](https://www.darpa.mil/research/challenges/subterranean) 2021. Our team won the competition and USD 2mn in prize money. -->
 
-[Thesis](https://nva.sikt.no/registration/019976cfee7c-1571705e-69c5-4f39-a32a-45f7c7913505) | [Google Scholar](https://scholar.google.com/citations?user=ioQvwcEAAAAJ) | [Download CV](/files/cv.pdf)
+[Thesis](https://nva.sikt.no/registration/019976cfee7c-1571705e-69c5-4f39-a32a-45f7c7913505) | [Google Scholar](https://scholar.google.com/citations?user=ioQvwcEAAAAJ) | [Download CV](/files/cv.pdf) | [Quick Links](/quicklinks/)
+
+<div class="quicklinks-cta-container">
+    <a href="/quicklinks/" class="quicklinks-cta-btn">
+        <span class="quicklinks-cta-icon">⚡</span>
+        <span>Quick Links</span>
+    </a>
+</div>
+
 

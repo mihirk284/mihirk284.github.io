@@ -25,4 +25,12 @@ social_media_card = "index.jpg"
 
 मैं 2021 में [DARPA सबटेरेनियन चैलेंज](https://www.darpa.mil/research/challenges/subterranean) जीतने वाली टीम ([टीम CEREBRUS](https://www.subt-cerberus.org/)) का प्रमुख सदस्य था। हमारी टीम ने प्रतियोगिता और 20 लाख अमेरिकी डॉलर की पुरस्कार राशि जीती।
 
-[प्रकाशन](/hi/publications/) | [अनुभव](/hi/experience/) | [परियोजनाएं](/hi/projects/) | [CV डाउनलोड करें](/files/cv.pdf)
+[प्रकाशन](/hi/publications/) | [अनुभव](/hi/experience/) | [परियोजनाएं](/hi/projects/) | [CV डाउनलोड करें](/files/cv.pdf) | [त्वरित लिंक्स](/hi/quicklinks/)
+
+<div class="quicklinks-cta-container">
+    <a href="/hi/quicklinks/" class="quicklinks-cta-btn">
+        <span class="quicklinks-cta-icon">⚡</span>
+        <span>त्वरित लिंक्स</span>
+    </a>
+</div>
+
